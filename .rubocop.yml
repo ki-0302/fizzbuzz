@@ -21,4 +21,7 @@ Style/StringLiterals:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
-    
+
+# Use only ascii symbols in comments.
+AsciiComments:
+ Enabled: false

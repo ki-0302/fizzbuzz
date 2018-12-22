@@ -1,2 +1,5 @@
+# RuboCop
 .rubocop.yml
+
+# rbenv
 .ruby-version

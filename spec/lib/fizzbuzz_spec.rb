@@ -39,7 +39,7 @@ RSpec.describe "FizzBuzz Test" do
     it "1を標準出力する" do
       expect { fizzbuzz.print_value(1) }.to output("1\n").to_stdout
     end
-    it "標準出力を100回する" do
+    it "1から100までを標準出力する" do
       # テスト用に標準出力で出力回数をカウントする
       def fizzbuzz.print_value(value)
         super

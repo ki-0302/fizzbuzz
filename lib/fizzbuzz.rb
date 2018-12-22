@@ -1,4 +1,10 @@
-class FizzBuzz 
+class FizzBuzz
+  attr_reader :range_fizz_buzz
+
+  def initialize
+    @range_fizz_buzz = 1..100
+  end
+
   def convert(num)
     if (num % 3).zero? && (num % 5).zero?
       "FizzBuzz"
@@ -11,8 +17,12 @@ class FizzBuzz
     end
   end
 
+  def print_value(value)
+    puts convert(value)
+  end
+
   def run
-    (1..100).each { |n| puts convert(n) }
+    @range_fizz_buzz.each { |n| print_value(n) }
   end
 end
 

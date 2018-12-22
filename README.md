@@ -1,7 +1,7 @@
 # FizzBuzz問題をRSpecで書いてみる
 
 学習用にこちらの「50分でわかるテスト駆動開発」を元に、RSpecとRubyに書き直して作成したものです。  
-わかりやすい動作がを作成していただいた、@t_wadaさんに感謝します。  
+わかりやすい動画を作成していただいた@t_wadaさんに感謝します。  
 https://channel9.msdn.com/Events/de-code/2017/DO03?ocid=player
   
 

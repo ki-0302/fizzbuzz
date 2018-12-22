@@ -26,5 +26,7 @@ class FizzBuzz
   end
 end
 
-# fizzbuzz = FizzBuzz.new
-# fizzbuzz.run
+if $PROGRAM_NAME == __FILE__
+  fizzbuzz = FizzBuzz.new
+  fizzbuzz.run
+end
